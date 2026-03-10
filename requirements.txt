@@ -1,0 +1,8 @@
+transformers
+torch
+datasets
+gradio
+pandas
+scikit-learn
+fastapi
+uvicorn
