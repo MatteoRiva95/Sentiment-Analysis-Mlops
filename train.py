@@ -1,7 +1,6 @@
 """
 OPTIMIZED TRAINING SCRIPT
 Fine-tunes a sentiment analysis model.
-Features: Speed optimizations, Dynamic Padding, and Transformers v5+ compatibility.
 """
 
 import torch

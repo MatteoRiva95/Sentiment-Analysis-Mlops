@@ -1,5 +1,5 @@
 # Simple Sentiment Analysis with MLOps Practices
-This project implements a lightweight sentiment analysis system using a HuggingFace model and a minimal MLOps workflow. It includes training, inference, monitoring, and a simple CI pipeline. The goal is to provide a clear, easy‑to‑understand structure suitable for learning or small‑scale deployments.
+This project implements a lightweight sentiment analysis system using a HuggingFace model and a minimal MLOps workflow, for MachineInnovators Inc. to monitor corporate reputation on social media. It includes training, inference, monitoring, and a simple CI pipeline. The goal is to provide a clear, easy‑to‑understand structure suitable for learning or small‑scale deployments.
 
 # Features
 ## Pretrained Model  
@@ -23,16 +23,19 @@ GitHub Actions workflow that installs dependencies and runs a basic integration 
 
 ## Project Structure
 ```
-mlops-sentiment-simple/
-├─ train.py
-├─ inference.py
-├─ monitoring.py
-├─ monitoring_server.py
-├─ app.py
-├─ requirements.txt
-├─ data/
-├─ monitoring_logs/
-└─ .github/workflows/ci.yml
+SENTIMENT-ANALYSIS-MLOPS/
+├── .github/
+│   └── workflows/
+│       └── ci_cd.yml          
+├── tests/
+│   └── test_logic.py          
+├── app.py                     
+├── inference.py               
+├── monitoring.py              
+├── monitoring_server.py       
+├── README.md                  
+├── requirements.txt           
+└── train.py                   
 ```
 
 # How to Run (GitHub Codespaces)
