@@ -1,3 +1,14 @@
+---
+title: Sentiment Analysis with MLOps Practices
+emoji: 📊
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+sdk_version: 4.21.0
+app_file: app.py
+pinned: false
+---
+
 # Simple Sentiment Analysis with MLOps Practices
 This project implements a lightweight sentiment analysis system using a HuggingFace model and a minimal MLOps workflow, for MachineInnovators Inc. to monitor corporate reputation on social media. It includes training, inference, monitoring, and a simple CI pipeline. The goal is to provide a clear, easy‑to‑understand structure suitable for learning or small‑scale deployments.
 
