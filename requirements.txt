@@ -8,8 +8,8 @@ pandas
 scikit-learn
 scipy
 tqdm
-gradio>=4.44.1
-huggingface_hub>=0.25.0
+gradio==4.44.1
+huggingface_hub==0.24.0
 fastapi
 uvicorn
 pytest>=8.0.0
