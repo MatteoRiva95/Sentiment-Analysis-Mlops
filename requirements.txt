@@ -6,10 +6,10 @@ evaluate>=0.4.1
 numpy<2.0.0
 scikit-learn
 scipy
-gradio         
+gradio==4.21.0         
 fastapi      
 uvicorn        
 pandas         
 tqdm     
-huggingface_hub 
-pytest         
+huggingface_hub==0.20.3 
+pytest>=8.0.0         
