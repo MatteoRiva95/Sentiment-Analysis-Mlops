@@ -15,7 +15,7 @@ def analyze_sentiment(text):
         return "Please enter some text."
     
     # Using the fast predict function from our previous script
-    results = predictor.predict(text)
+    results = predict(text)
     
     # Formatting output for better UI display
     label = results["label"].upper()
