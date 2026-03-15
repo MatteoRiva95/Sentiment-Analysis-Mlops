@@ -5,7 +5,7 @@ This script acts as the 'Frontend' of the project.
 """
 
 import gradio as gr
-from predict import predictor  # Updated to use our faster predictor logic
+from inference import predict
 
 def analyze_sentiment(text):
     """
