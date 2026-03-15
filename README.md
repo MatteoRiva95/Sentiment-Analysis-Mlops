@@ -30,7 +30,7 @@ A small FastAPI server exposes these logs so Grafana can visualize them using th
 A simple Gradio interface for interactive sentiment analysis.
 
 ## CI-CD Pipeline  
-GitHub Actions workflow that installs dependencies and runs a basic integration test.
+Every change to this repository is automatically tested for structural integrity and deployed to the live Hugging Face Space.
 
 ## Project Structure
 ```
@@ -94,4 +94,4 @@ http://localhost:8001/logs
 
 - predicted_label
 - timestamp
-- scores.positive, scores.neutral, scores.negative
+- scores
