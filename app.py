@@ -18,9 +18,10 @@ def analyze_sentiment(text):
     results = predict(text)
     
     # Formatting output for better UI display
-    label = results["label"].upper()
-    confidence = results["confidence"]
-    return f"SENTIMENT: {label}\nCONFIDENCE: {confidence:.2%}"
+    label = results["label"]
+    score = results["scores"][label]
+    
+    return f"SENTIMENT: {label}\nCONFIDENCE: {score:.2%}"
 
 # Create a polished UI
 demo = gr.Interface(
